@@ -6,51 +6,50 @@ A lightweight Python tool that calculate the straight-line and travel distance b
 
 - Computes distance using latitude and longitude (Haversine formula).
 
-## Installation
+# Distance Between Two Points Calculator
 
-### Prerequisites
+## Description
 
-Make sure you have **Python 3.8 or higher** installed on your system.
+This program calculates the distance between two points (x1, y1) and (x2, y2) on a 2D plane
 
-### Steps
+using input values and a math library.
 
-1. Clone my repository to your local machine:
-   ```bash
-   git clone https://github.com
-   ```
+## How to Run
 
-2. Navigate into the project directory:
-   ```bash
-   cd distance-calculator
-   ```
+1. Open the program file in VS Code, Replit, or Google Colab.
 
-3. Install the required dependencies that I used for this project:
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Run the program.
 
-## Usage
+3. Enter the values for x1, y1, x2, and y2.
 
-### Command Line Interface (CLI)
+4. Check the distance displayed on the screen.
 
-You can run my main script directly from your terminal:
+## Input Needed
 
-```bash
-python calculator.py --origin "New York" --destination "Los Angeles"
-```
+- x1
 
-### Python Module Example
+- y1
 
-You can also import my module into your own Python scripts like this:
+- x2
 
-```python
-from calculator import DistanceCalculator
+- y2
 
-# Initialize my calculator class
-calc = DistanceCalculator()
+## Sample Output
 
-# Calculate distance between two coordinate points
-miles = calc.between_coordinates((40.7128, -74.0060), (34.0522, -118.2437))
-print(f"Distance: {miles} miles")
-```
+Enter x1: 2
+
+Enter y1: 3
+
+Enter x2: 7
+
+Enter y2: 8
+
+The distance between the two points is: 7.07
+
+## Author
+
+Name: Llamre Jeileen Montero
+
+Section: dahlia
+
 
